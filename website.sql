@@ -214,8 +214,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`mail`, `name`, `tel`, `other`, `percentage`, `reg_date`, `priv`, `id`) VALUES
-('honarparvar@gmail.com', 'عماد هنرپرور', '', NULL, '', '', 'super-admin', 2),
-('nimanima54@gmail.com', 'نیما صیادی', '09017991246', 'a:10:{i:0;s:3:\"sad\";i:1;s:4:\"dfgf\";i:2;s:2:\"ds\";i:3;s:4:\"5000\";i:4;s:1:\"5\";i:5;s:5:\"60000\";i:6;s:3:\"546\";i:7;s:3:\"456\";i:8;s:4:\"7657\";i:9;s:57:\"یه برند ناشناخته ارزان ولی قشنگ\";}', '10', '1651323001', 'user', 9);
+('xyzyz@gmail.com', 'Honarparvart', '', NULL, '', '', 'super-admin', 2),
+('xyz@gmail.com', 'Jack the ripper', '09188335858', 'a:10:{i:0;s:3:\"sad\";i:1;s:4:\"dfgf\";i:2;s:2:\"ds\";i:3;s:4:\"5000\";i:4;s:1:\"5\";i:5;s:5:\"60000\";i:6;s:3:\"546\";i:7;s:3:\"456\";i:8;s:4:\"7657\";i:9;s:57:\"یه برند ناشناخته ارزان ولی قشنگ\";}', '10', '1651323001', 'user', 9);
 
 -- --------------------------------------------------------
 
@@ -237,9 +237,9 @@ CREATE TABLE `wallets` (
 --
 
 INSERT INTO `wallets` (`user`, `address`, `status`, `date`, `network`, `id`) VALUES
-('nimanima54@gmail.com', 'bnb1wwushdeatgdwz5nwlxfzsy8ll8cvdkjxv5aeue', 'تایید شده', '1401/02/22', 'BEP20', 10),
-('nimanima54@gmail.com', 'GBDP7RQJJWQHSHIJIZS34KTEEZOSKAPDNDUCBK4', 'درانتظار', '1401/02/23', 'Bitcoin', 11),
-('nimanima54@gmail.com', 'GBDP7RQJJWQHSHIJIZS34KTdeEEZOSKAPDNDUCBK4', 'درانتظار', '1401/03/23', 'ERC20', 13);
+('xyz@gmail.com', 'bnb1wwushdeatgdwz5nwlxfzsy8ll8cvdkjxv5aeue', 'تایید شده', '1401/02/22', 'BEP20', 10),
+('xyz@gmail.com', 'GBDP7RQJJWQHSHIJIZS34KTEEZOSKAPDNDUCBK4', 'درانتظار', '1401/02/23', 'Bitcoin', 11),
+('xyz@gmail.com', 'GBDP7RQJJWQHSHIJIZS34KTdeEEZOSKAPDNDUCBK4', 'درانتظار', '1401/03/23', 'ERC20', 13);
 
 --
 -- Indexes for dumped tables
